@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    flex-wrap: wrap;
+    position: absolute;
+    width: 100%;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    justify-content: space-around ;
+    justify-content: center;
+    align-items: center;
+    /* margin: 50px; */
+}
+
+.container header{
+    font-size: xx-large;
+    font-weight: bolder;
+    color:green;
+}
+
+.container input{
+    border-radius: 5px;
+    height: 30px;
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    outline: none   ;
+    font-size: 20px;
+}
+
+.container button{
+    width: 25%;
+    height: 30px;
+    background-color: aquamarine;
+    /* border: 1px solid black; */
+    outline-color: skyblue;
+}
