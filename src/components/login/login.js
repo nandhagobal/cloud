@@ -38,7 +38,7 @@ class login extends Component{
                     <header>login page</header>
                     <form>
                     {inputElement.map((ele)=>{
-                        return <Input inputtype={ele.config.elementType} {...ele.config.elementConfig} key={ele.id}>  </Input>
+                        return <Input inputtype={ele.config.elementType} {...ele.config.elementConfig} key={ele.id}>        </Input>
                     })}
                     <button >login</button>
                     </form>
